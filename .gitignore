@@ -1,7 +1,12 @@
 node_modules/
-# User-specific files - Ignore all files ending in " "
-*.env,
+# Mono auto generated files - Ignore all files starting with "Z"
+Z.*,
+
 /artifacts/,
 
-# Mono auto generated files - Ignore all files starting with "Z"
-Z.*
+# User-specific files - Ignore all files ending in " "
+
+.env
+
+
+
